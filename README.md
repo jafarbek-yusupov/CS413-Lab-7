@@ -113,5 +113,5 @@ Create a repo `CS413-Robotics/Lab7/<content>`:
 1. **`go_to_goal_sim.qrs`** and **`go_to_goal_real.qrs`**: the programs with your waypoint list, gains `K_v`, `K_θ` and acceptance radius `ε`.
 2. **`odometry_data_sim.txt`** and **`odometry_data_real.txt`**: the raw logs.
 3. **Colab notebook (`.ipynb`)** containing the trajectory plot, the waypoint-miss table and the run times.
-4. **Measured end point.** Measure the real robot's final position with a tape and compare it to the last waypoint and to the last line of `odometry_data_real.txt`.
+4. **Heading and velocity errors.** Plot simulation and real-robot direction-angle and linear-speed errors against the ideal nonlinear-controller trajectory, stating how they are estimated from the logs.
 5. **3–6 sentences** answering two questions. Which corners were cut or overshot, and which gain or `ε` caused it? Is the remaining real-vs-model gap a **control** problem or a **localization** problem?
